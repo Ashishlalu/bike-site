@@ -1,0 +1,211 @@
+
+   body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 40px;
+            background-color: #fff;
+        }
+        header nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+        }
+        header .icons a {
+            margin: 0 10px;
+            color: #333;
+            margin-right: 20px;
+        }
+        header .icons a i{
+            position: absolute;
+        }
+        .heading{
+            font-size: 20px;
+            font-weight: 600;
+        }
+        a{
+            text-decoration: none;
+        }
+        #head:hover{
+            background-color: black;
+            padding: 5px;
+            border-radius: 5px;
+            color: #fdfcfc;
+        }
+        .hero {
+            position: relative;
+            text-align: center;
+            color: white;
+        }
+        .hero img {
+            width: 100%;
+            height: auto;
+        }
+        .hero .text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .hero h1 {
+            font-size: 48px;
+            margin: 0;
+        }
+        .section {
+            padding: 60px 40px;
+        }
+        .section img {
+            width: 100%;
+            height: auto;
+        }
+        .section h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        .section p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+        .section .content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .section .content img {
+            width: 45%;
+        }
+        .section .content .text {
+            width: 45%;
+        }
+        .back{
+            height: 400px;
+            background-image: url(./images/Section.png);
+        }
+        .txt{
+            margin-top: 80px;
+            color: #ccc;
+        }
+        .bk{
+            color: #ccc;
+        }
+        .service{
+            font-size: 45px;
+        }
+        .carousel {
+            display: flex;
+            justify-content: space-between;
+            padding: 40px 0;
+        }
+        .carousel .item {
+            width: 45%;
+            text-align: center;
+        }
+        .carousel img {
+            width: 100%;
+            height: auto;
+        }
+        .carousel .dots {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .carousel .dots span {
+            width: 10px;
+            height: 10px;
+            background-color: #ccc;
+            border-radius: 50%;
+            margin: 0 5px;
+            display: inline-block;
+        }
+        .carousel .dots .active {
+            background-color: #333;
+        }
+        .contact-form {
+            padding: 60px 40px;
+            background-color: #f9f9f9;
+        }
+        .contact-form h1{
+            font-size: 70px;
+            text-align: center;
+        }
+        .contact-form form {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 15px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            width: 600px;
+            padding: 15px 30px;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .faq {
+            padding: 60px 40px;
+        }
+        .faq h1 {
+            font-size: 70px;
+            margin-bottom: 20px;
+        }
+        .faq .question {
+            margin-bottom: 20px;
+        }
+        .faq .question h3 {
+            font-size: 23px;
+            margin: 0;
+        }
+        .faq .question p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 40px;
+            text-align: center;
+        }
+        footer .links {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+        footer .links div {
+            width: 30%;
+        }
+        footer .links a {
+            color: #fff;
+            text-decoration: none;
+            display: block;
+            margin-bottom: 10px;
+        }
+        footer .social {
+            margin-top: 20px;
+        }
+        footer .social a {
+            margin: 0 10px;
+            color: #fff;
+            margin-right: 20px;
+        }
+        footer .social a i{
+            position: absolute;
+            
+        }
+        .email{
+            height: 30px;
+            border-radius: 5px;
+            border: solid #333;
+        }
